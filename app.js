@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 }
 
 exibirMensagemInicial();
@@ -25,6 +25,10 @@ function verificarChute() {
         let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
         exibirTextoNaTela('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
+
+        let troca_imagem = document.querySelector('.container__imagem-pessoa');
+        troca_imagem.src = './img/MonkeIdea.png';
+
     } else {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número secreto é menor');
@@ -63,11 +67,7 @@ function reiniciarJogo() {
     tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true)
+
+    let imagem_inicial = document.querySelector('.container__imagem-pessoa');
+    imagem_inicial.src = './img/ThinkingMonke.png';
 }
-
-
-
-
-
-
-
