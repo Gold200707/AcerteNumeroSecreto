@@ -31,7 +31,6 @@ O funcionamento do projeto é estruturado em três arquivos principais:
 * **HTML5** (Estruturação semântica)
 * **CSS3** (Estilização avançada, Layout Flexbox e Responsividade)
 * **JavaScript ES6+** (Manipulação do DOM, Funções, Arrays e Recursividade)
-* **ResponsiveVoice API** (Síntese de voz para Text-to-Speech)
 * **Google Fonts** (Fontes *Chakra Petch* e *Inter*)
 
 ---
