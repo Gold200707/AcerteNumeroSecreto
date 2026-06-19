@@ -21,7 +21,6 @@ O funcionamento do projeto é estruturado em três arquivos principais:
 3. **`app.js`**: Centraliza toda a inteligência e o estado do jogo através das seguintes mecânicas:
    * **Sorteio com Recursividade**: A função `gerarNumeroAleatorio()` sorteia um número de 1 a 50 e verifica se ele já foi sorteado anteriormente. Se sim, a função chama a si mesma recursivamente até encontrar um número inédito.
    * **Controle de Estado de Array**: Os números já jogados são guardados em `listaDeNumerosSorteados`. Quando o tamanho da lista atinge o limite máximo (50), o array é automaticamente limpo para uma nova sequência.
-   * **Acessibilidade Narrada**: Integração com a biblioteca externa **ResponsiveVoice.js** na função `exibirTextoNaTela()`, que lê em voz alta o conteúdo textual atualizado do jogo no idioma `Brazilian Portuguese Female`.
    * **Feedback e Validação**: Valida se o palpite é maior ou menor que o número secreto, contabiliza o número de tentativas (com tratamento gramatical para singular e plural) e gerencia o estado do botão "Novo jogo" (`removeAttribute` e `setAttribute`).
 
 ---
