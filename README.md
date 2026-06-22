@@ -3,6 +3,7 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=%23323330)
+![Alura](https://img.shields.io/badge/Alura-Challenge-%23167BF7?style=for-the-badge&logo=codecademy&logoColor=white)
 
 Um jogo interativo e responsivo de adivinhação numérica desenvolvido com tecnologias web nativas. O sistema gera um número secreto aleatório e o jogador deve tentar adivinhá-lo recebendo feedbacks em tempo real.
 
@@ -10,7 +11,7 @@ Um jogo interativo e responsivo de adivinhação numérica desenvolvido com tecn
 
 ## 📋 Sobre o Projeto
 
-O **Jogo do Número Secreto** é uma aplicação focada na prática de lógica de programação, manipulação dinâmica do DOM (Document Object Model) e acessibilidade na web. O jogo possui um limite configurado para números de **1 a 50**.
+O **Jogo do Número Secreto** é uma aplicação desenvolvida como parte de um desafio prático da **Alura**. O projeto é focado na prática de lógica de programação, manipulação dinâmica do DOM (Document Object Model) e acessibilidade na web. O jogo possui um limite configurado para números de **1 a 50**.
 
 ### 🧠 Lógica e Funcionamento
 
@@ -51,6 +52,12 @@ O funcionamento do projeto é estruturado em três arquivos principais:
 
 3. **Abra o jogo:**
 Basta abrir o arquivo `index.html` diretamente em seu navegador ou utilizar uma extensão como o *Live Server* no VS Code.
+
+---
+
+## 🎓 Origem e Aprendizado
+
+Este projeto foi desenvolvido como um desafio (Challenge) proposto pela **Alura**, idealizado para aplicar na prática conceitos de funções, estruturas condicionais, arrays e boas práticas de desenvolvimento web.
 
 ---
 
